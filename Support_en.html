@@ -1,1 +1,152 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <style>
+        .ennote{
+            margin-left: 15px;
+            margin-right: 15px;
+            font-size: 14px;
+        }
+        .container{
+            margin-top: 40px;
+            height: 720px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            align-items: center;
+            align-content: center;
+        }
+        .item{
+            width: 100%;
+            height: 100px;
+            margin-top: 20px;
+            border-radius: 8px;
+            text-align: center;
+            line-height: 100px;
+            color: black;
+        }
+        .bottomtext{
+            width: 100%;
+            height: 60px;
+            font-size: 11px;
+            color: #ccc;
+            text-align: center;
+            line-height: 60px;
+        }
+        .iconimageV{
+            width :100px;
+            height: 100px;
+            margin-left: 0px;
+        }
+        .iconimage{
+            width :80px;
+            height: 80px;
+            margin-top: 10px;
+            border-radius: 16px;
+            border: solid 1px #dedede;
+        }
+        .tlabel{
+            font-size: 16px;
+            font-weight: bold;
+            color: #000;
+            height: 30px;
+            line-height: 30px;
+            margin-top: -80px;
+            margin-left: 105px;
+            text-align: left;
+        }
+        .dlabel{
+            font-size: 13px;
+            color: #ccc;
+            margin-top: 0px;
+            height: 30px;
+            line-height: 30px;
+            margin-left: 105px;
+            text-align: left;
+        }
+        .gbtn{
+            margin-top: -55px;
+            margin-left: 200px;
+            width: 80px;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 20px;
+            color: white;
+            background-color: #0075ff;
+        }
+    </style>
+    <script type="text/javascript">
+        function jumptoappstore(e){
+            window.location.href = "itms-apps://itunes.apple.com/app/id"+e;
+        }
+    </script>
+</head>
+<body>
+    <h3 class="title">Support</h3>
+    <div>
+        <div class="ennote">
+            <div><br></div>
+            <div>Thank you for using</div>
+            <div>If you encounter problems during use or have any comments and suggestions</div>
+            <div> can send an email to me in the App - [My] - [Feedback]. </div>
+            <div>My E-mail: chenhoox@qq.com</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="item" onclick="jumptoappstore('6444388954')">
+            <div class="iconimageV">
+                <img class="iconimage" src="./images/myapp_translate.png" alt="icon">
+            </div>
+            <div class="tlabel">ATranslate</div>
+            <div class="dlabel">Translation between 27 languages</div>
+            <!-- <div class="gbtn">获取</div> -->
+        </div>
+        <div class="item" onclick="jumptoappstore('1643724562')">
+            <div class="iconimageV">
+                <img class="iconimage" src="./images/myapp_wheel.png" alt="icon">
+            </div>
+            <div class="tlabel">Spin The Wheel</div>
+            <div class="dlabel">Custom Wheels Random Choice</div>
+            <!-- <div class="gbtn">获取</div> -->
+        </div>
+        <div class="item" onclick="jumptoappstore('1619626699')">
+            <div class="iconimageV">
+                <img class="iconimage" src="./images/myapp_sudoku.png" alt="icon">
+            </div>
+            <div class="tlabel">Sudoku</div>
+            <div class="dlabel">Puzzle Word Game</div>
+            <!-- <div class="gbtn">获取</div> -->
+        </div>
+        <div class="item" onclick="jumptoappstore('1561801851')">
+            <div class="iconimageV">
+                <img class="iconimage" src="./images/myapp_daiban.png" alt="icon">
+            </div>
+            <div class="tlabel">Minimalist to-do list</div>
+            <div class="dlabel">keep your life organized</div>
+            <!-- <div class="gbtn">获取</div> -->
+        </div>
+        <div class="item" onclick="jumptoappstore('1533268812')">
+            <div class="iconimageV">
+                <img class="iconimage" src="./images/myapp_timewidget.png" alt="icon">
+            </div>
+            <div class="tlabel">TimeWidget</div>
+            <div class="dlabel">iOS Desktop Clock Widget</div>
+            <!-- <div class="gbtn">获取</div> -->
+        </div>
+        <div class="item" onclick="jumptoappstore('1536312237')">
+            <div class="iconimageV">
+                <img class="iconimage" src="./images/myapp_mima.png" alt="icon">
+            </div>
+            <div class="tlabel">Codebook</div>
+            <div class="dlabel">Minimalist and secure password book</div>
+            <!-- <div class="gbtn">获取</div> -->
+        </div>
+    </div>
+    <div class="bottomtext">－ More exciting, please look forward to －</div>
+</body>
+</html>
